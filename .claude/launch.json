@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "order-web",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8934", "--bind", "127.0.0.1", "--directory", "ORDOR-main"],
+      "port": 8934
+    }
+  ]
+}
